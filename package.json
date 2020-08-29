@@ -1,5 +1,13 @@
 {
-  "name": "easy-starter",
+  "name": "react-starter",
+  "description": "Simple project starter with CRA, TailwindCSS, and some handy libraries",
+  "author": {
+    "name": "Dave Nathanael",
+    "url": "https://github.com/davenathanael"
+  },
+  "homepage": "https://github.com/davenathanael/react-starter",
+  "repository": "davenathanael/react-starter",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

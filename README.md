@@ -1,44 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Starter
 
-## Available Scripts
+This is a simple React project starter, bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using Typescript template. This starter have some handy libraries and configurations such as:
 
-In the project directory, you can run:
+- [tailwindcss](https://tailwindcss.com/) with [styled-components](https://styled-components.com/) and [twin.macro](https://github.com/ben-rogerson/twin.macro), configured to purge unused style on production build to have minimal css size
+- [react-query](https://github.com/tannerlinsley/react-query) to deal with server-side data
+- [zustand](https://github.com/react-spring/zustand) as the easy and simple yet powerful state management
+- [react-hook-form](https://eslint.org/) to handle form inputs, validations, and errors
+- [eslint](https://eslint.org/) and [prettier](https://prettier.io/)
+- git pre-commit hook to lint and prettify codes with [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
 
-### `yarn start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Created by [davenathanael](https://github.com/davenathanael) - 2020
