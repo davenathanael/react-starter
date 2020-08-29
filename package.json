@@ -59,6 +59,8 @@
     "autoprefixer": "^9.8.6",
     "babel-plugin-macros": "^2.8.0",
     "eslint-config-prettier": "^6.11.0",
+    "husky": ">=4",
+    "lint-staged": ">=10",
     "postcss-cli": "^7.1.1",
     "prettier": "2.1.1",
     "tailwindcss": "^1.7.5",
@@ -73,5 +75,17 @@
       "debugPlugins": false,
       "debug": false
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn checkTs && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{md,json}": "prettier --write"
   }
 }
